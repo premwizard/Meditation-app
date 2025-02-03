@@ -1,0 +1,46 @@
+.meditation-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Aligns the content at the top */
+  align-items: center; /* Centers horizontally */
+  height: 100vh;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f8ff; /* Optional: Light background color */
+  padding-top: 20px; /* Add some space from the top */
+}
+
+
+.timer {
+  font-size: 3em;
+  margin: 20px;
+}
+
+.controls button {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  margin: 10px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.controls button:hover {
+  background-color: #00ff0d;
+}
+
+.audio-controls button {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  margin: 10px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.audio-controls button:hover {
+  background-color: #45a049;
+}
